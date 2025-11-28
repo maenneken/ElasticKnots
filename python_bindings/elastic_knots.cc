@@ -106,6 +106,7 @@ PYBIND11_MODULE(elastic_knots, m) {
         .def("hasCollisions",             &ContactProblem::hasCollisions)
         .def("updateConstraintSet",       &ContactProblem::updateConstraintSet)
         .def("contactEnergy",             &ContactProblem::contactEnergy)
+        .def("totalEnergy",               &ContactProblem::energy)
         .def("externalPotentialEnergy",   &ContactProblem::externalPotentialEnergy)
         .def("hessianSparsityPattern",    &ContactProblem::hessianSparsityPattern)
         .def("hessian",                   &ContactProblem::hessian)

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/MeshFEM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/MeshFEM/3rdparty/Catch2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/MeshFEM/3rdparty/OffscreenRenderer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/MeshFEM/3rdparty/pybind11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/MeshFEM/3rdparty/spectra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/MeshFEM/3rdparty/tbb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/MeshFEM/3rdparty/tinyexpr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/MeshFEM/3rdparty/triangle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/RotationOptimization" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/libigl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/libigl/external/glad" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/libigl/external/glfw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/libigl/external/imgui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/libigl/external/libigl-imgui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/spectra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ElasticRods/3rdparty/visvalingam_simplify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/Tight-Inclusion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/braid-generator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3rdparty/ipc-toolkit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/abseil-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/boost-cmake-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/eigen-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/libigl-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/predicates-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/robin-map-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/spdlog-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/sweep_and_tiniest_queue-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/tbb-src" vcs="Git" />
+  </component>
+</project>
