@@ -118,8 +118,22 @@ add_subdirectory(python_bindings)
 # add_subdirectory(tests)  # TODO: write unit tests
 
 # polyscope
+
+#Polyscope denkt die wäre woanders
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/polyscope/deps/imgui/imgui)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/polyscope/deps/imgui/implot)
+
 add_subdirectory(3rdparty/polyscope)
 
-add_executable(test1 tests/test1.cpp tests/helpers.cpp)
+add_executable(test1
+    tests/test1.cpp
+    tests/helpers.cpp
+    tests/KnotVisualizer.cpp
+)
+target_compile_options(test1 PRIVATE -w)  # suppress all warnings
+
+# Link your main library
 target_link_libraries(test1 PRIVATE ElasticKnots)
 
+# Link Polyscope
+target_link_libraries(test1 PRIVATE polyscope)

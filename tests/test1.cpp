@@ -11,8 +11,11 @@
 #include "../PeriodicRodList.hh"
 #include "../ContactProblem.hh"
 
+#include "KnotVisualizer.h"
+
 
 int main() {
+    //TODO https://polyscope.run/ viewer implementieren
     std::string file = "../data/L400-r0.2-UpTo9Crossings/4_1/0033.obj";
     double rod_radius = 0.2;
     std::vector<double> params = {rod_radius, rod_radius};
@@ -36,6 +39,11 @@ int main() {
     };
     **/
     std::vector<Eigen::Vector3d> centerline = read_nodes_from_file(file);
+
+    //Set Visulizer
+    KnotVisualizer Viewer = KnotVisualizer();
+    Viewer.setKnot(centerline,rod_radius);
+    Viewer.show();
 
     PeriodicRod pr = define_periodic_rod(centerline,material);
 
