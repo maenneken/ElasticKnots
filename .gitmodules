@@ -10,3 +10,6 @@
 [submodule "3rdparty/ElasticRods"]
 	path = 3rdparty/ElasticRods
 	url = https://github.com/jpanetta/ElasticRods.git
+[submodule "3rdparty/polyscope"]
+	path = 3rdparty/polyscope
+	url = https://github.com/nmwsharp/polyscope.git

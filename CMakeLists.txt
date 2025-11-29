@@ -117,5 +117,9 @@ add_subdirectory(python_bindings)
 ################################################################################
 # add_subdirectory(tests)  # TODO: write unit tests
 
+# polyscope
+add_subdirectory(3rdparty/polyscope)
+
 add_executable(test1 tests/test1.cpp tests/helpers.cpp)
 target_link_libraries(test1 PRIVATE ElasticKnots)
+
